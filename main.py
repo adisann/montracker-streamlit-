@@ -247,7 +247,7 @@ def display_charts(df):
 
 
 def add_transaction(df):
-    st.markdown("##
+    st.markdown("### ➕ Tambah Transaksi Baru")
     
     with st.form("transaksi_baru", clear_on_submit=True):
         col1, col2 = st.columns(2)
@@ -299,7 +299,7 @@ def add_transaction(df):
 
 
 def display_table(df):
-    st.markdown("##
+    st.markdown("### 📋 Daftar Transaksi")
     
     
     if df.empty:
@@ -612,7 +612,7 @@ def main():
     
     
     with tab1:
-        st.markdown("#
+        st.markdown("## 📊 Dashboard Keuangan ")
         display_summary_cards(df)
         st.markdown("---")
         display_charts(df)
