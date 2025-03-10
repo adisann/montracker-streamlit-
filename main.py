@@ -7,7 +7,7 @@ import io
 
 # Konfigurasi halaman
 st.set_page_config(
-    page_title="Pelacak Keuangan",
+    page_title="Montracker Pelacak Keuangan",
     page_icon="💰",
     layout="wide",
 )
